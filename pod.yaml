@@ -4,13 +4,13 @@ metadata:
   name: argocd-nginx-pod
   labels:
     app.kubernetes.io/name: argocd-nginx 
-    app.kubernetes.io/name: argocd-nginx 
 spec:
   containers:
   - name: nginx
     image: nginx
     ports:
       - containerPort: 80
+
 
 
 
